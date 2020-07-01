@@ -10,7 +10,7 @@
         <version>2.12.16</version>
     </parent>
 
-    <artifactId>holograms-v1_14_R1</artifactId>
+    <artifactId>holograms-v1_16_R1</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,9 +21,9 @@
     <dependencies>
         <!-- Local .m2 -->
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.14-R0.1-SNAPSHOT</version>
+            <groupId>org.bukkit</groupId>
+            <artifactId>craftbukkit</artifactId>
+            <version>1.16-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <!-- End local .m2 -->
